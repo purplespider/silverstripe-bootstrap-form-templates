@@ -1,5 +1,5 @@
 {
-	"name": "purplespider/bootstrap-form-templates",
+	"name": "purplespider/silverstripe-bootstrap-form-templates",
 	"description": "Bootstap 5 form templates for Silverstripe 4",
 	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/purplespider/silverstripe-bootstrap-form-templates",
