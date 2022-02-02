@@ -1,8 +1,8 @@
-<div id="{$HolderID.ATT}" class="field {$ExtraClass.ATT} <% if $Message %>is-invalid<% end_if %>">
+<div id="{$HolderID.ATT}" class="field <% if $Message %>is-invalid<% end_if %>">
     <% include PurpleSpider/BootstrapForms/Includes/FormFieldLabel %>
-    <div class="field-group <% if $Zebra %>field-group-zebra<% end_if %>">
+    <div class="field-group <% if $Zebra %>field-group-zebra<% end_if %> {$ExtraClass.ATT}">
         <% loop $FieldList %>
-            <div class="field-group-field {$FirstLast.ATT} {$EvenOdd.ATT}">
+            <div class="field-group-field form-group {$FirstLast.ATT} {$EvenOdd.ATT} {$ExtraClass.ATT}">
                 {$SmallFieldHolder}
             </div>
         <% end_loop %>
