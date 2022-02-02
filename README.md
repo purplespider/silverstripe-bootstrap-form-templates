@@ -17,7 +17,7 @@ This module aims to be a (mostly) unopinionated set of form templates to mark up
 
 1. Install using `composer`:
 ````
-composer require purplespider/silverstripe-bootstrap-form-templates
+composer require purplespider/silverstripe-bootstrap-form-templates ^1
 ````
 
 2. Run `dev/build`
