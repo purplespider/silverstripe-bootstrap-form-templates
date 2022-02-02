@@ -24,7 +24,7 @@ composer require purplespider/silverstripe-bootstrap-form-templates
 
 3. Add as the FIRST theme in your `app/_config/theme.yml`:
 ````yml
-    - purplespider/bootstrap-form-templates:bootstrap-form-templates
+    - purplespider/silverstripe-bootstrap-form-templates:bootstrap-form-templates
 ````
 
 e.g.:
@@ -34,7 +34,7 @@ Name: mytheme
 ---
 SilverStripe\View\SSViewer:
   themes:
-    - purplespider/bootstrap-form-templates:bootstrap-form-templates
+    - purplespider/silverstripe-bootstrap-form-templates:bootstrap-form-templates
     - '$public'
     - 'simple'
     - '$default'
