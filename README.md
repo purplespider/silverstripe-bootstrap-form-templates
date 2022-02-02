@@ -1,4 +1,4 @@
-# Bootstrap 5 Templates for Silverstripe
+# Bootstrap 5 Templates for Silverstripe 4
 
 ## Introduction
 
@@ -15,13 +15,14 @@ This module aims to be a (mostly) unopinionated set of form templates to mark up
 
 ## Installation
 
-1. Install using `composer`
-`composer require purplespider/silverstripe-bootstrap-form-templates`
+1. Install using `composer`:
+````
+composer require purplespider/silverstripe-bootstrap-form-templates`
+````
 
 2. Run `dev/build`
 
-3. 
-Add as the FIRST theme in your `app/_config/theme.yml`:
+3. Add as the FIRST theme in your `app/_config/theme.yml`:
 ````yml
     - purplespider/bootstrap-form-templates:bootstrap-form-templates
 ````
